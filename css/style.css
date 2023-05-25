@@ -833,6 +833,7 @@ header ul{
     margin-top: 3rem;
     width: 66rem;
     justify-content: space-between;
+    list-style-type: none;
 }
 .typeOfWorkList a{
     color: #3c3040;
