@@ -1,0 +1,41 @@
+@media (max-width: 1315px){
+    header{
+        nav{
+            h1{
+                padding-right: 5.875rem;
+            }
+            ul{
+                li{
+                    margin-left: 1.5625rem;
+                    margin-right: 1.5625rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 890px){
+    header{
+        height: 10.1875rem;
+        nav{
+            @include flex(column,nowrap,center,center,0);
+            h1{
+                padding-right: 0rem;
+            }
+        }
+    }
+}
+@media (max-width: 630px){
+    header{
+        height: 12.375rem;;
+        nav{
+            h1{
+                font-size: 1.5625rem;
+            }
+            ul{
+                @include flex (column,nowrap,center,center,.9375rem);
+                margin-top: 1.25rem;
+                font-size: .875rem;
+            }
+        }
+    }
+}

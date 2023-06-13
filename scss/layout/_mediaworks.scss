@@ -1,0 +1,106 @@
+@media (max-width: 1314px){
+    .myWorksOne{
+        grid-template-columns: (repeat(3, 17.5rem));
+        grid-template-rows: (repeat(2,246px));
+        div{
+            h2{
+                font-size: 1.1875rem;
+            }
+            img{
+                width: 15.1563rem;
+            height: 9.6687rem;
+            }
+        }
+    }
+}
+@media (max-width: 940px){
+    .myWorksOne{
+        grid-template-columns: (repeat(2, 18.75rem));
+        grid-template-rows: (repeat(3, 16.4063rem));
+        div{
+            h2{
+                font-size: 1.25rem;
+            }
+            img{
+                width: 16.1719rem;
+                height: 10.3125rem;
+            }
+        }
+    }
+}
+@media (max-width: 700px){
+    .myWorksSection{
+        ul{
+            width: 32.5rem;
+        }
+    }
+    .myWorksOne{
+        gap: 1.25rem;
+    }
+}
+@media (max-width: 650px){
+.myWorksSection{
+    gap: 1.25rem;
+    h1{
+        font-size: 1.875rem;
+    }
+    p{
+        width: 29.6875rem;
+    }
+    ul{
+        width: 29.6875rem;
+    }
+}
+.myWorksOne{
+    grid-template-columns: (repeat(2, 14.0625rem));
+    grid-template-rows: (repeat(3, 12.305rem));
+    div{
+        h2{
+            font-size: 1rem;
+        }
+        img{
+            width: 12.125rem;
+            height: 7.7344rem;
+        }
+    }
+}
+}
+@media (max-width: 500px){
+    .myWorksSection{
+        gap: .9375rem;
+        h1{
+            width: 300px;
+            font-size: 1.25rem;
+        }
+        p{
+            font-size: .875rem;
+            width: 19.375rem;
+        }
+        ul{
+            width: 19.375rem;
+            li{
+                a{
+                    font-size: .875rem;
+                }
+            }
+        }
+    }
+    .myWorksOne{
+        grid-template-columns: (repeat(1,18rem));
+        grid-template-rows: (repeat(6, 8.0625rem));
+        div{
+            align-items: center;
+            flex-direction: row;
+            h2{
+                width: 6.8125rem;
+                padding-bottom: 0px;
+                font-size: 1rem;
+            }
+            img{
+                margin-top: 0px;
+                width: 9.375rem;
+                height: 6.0169rem;
+            }
+        }
+    }
+}

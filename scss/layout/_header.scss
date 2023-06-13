@@ -1,0 +1,38 @@
+header{
+    background-color: $color-hyf;
+    width: 100%;
+    height: 5.625rem;
+    nav{
+        display: flex;
+        justify-content: center;
+        h1{
+            font-family: 'Emilys Candy', cursive;
+            font-size: 2.5rem;
+            padding-top: 1.25rem;
+            padding-right: 27.375rem;
+            a{
+                text-decoration: none;
+                color: $color-texto;
+            }
+        }
+        ul{
+            font-family: $tipografia-principal;
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-top: 2.125rem;
+            li{
+                display: inline;
+                margin-left: 2.1875rem;
+                margin-right: 2.1875rem;
+                a{
+                    text-decoration: none;
+                    color: $color-texto;
+                    &:hover {
+                        color: #b290df;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    }

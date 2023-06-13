@@ -1,0 +1,22 @@
+@media (max-width: 425px){
+    footer{
+        height: 4.75rem;
+        div{
+            ul{
+                li{
+                    width: 1rem;
+                    height: 1rem;
+                    margin-left: .5rem;
+                    margin-right: 0.5rem;
+                    img{
+                        width: 1rem;
+                        height: 1rem;
+                    }
+                }
+            }
+            p{
+                font-size: .625rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+@media (max-width: 1313px){
+    div{
+        section{
+            margin: 2.625rem 0rem 2.625rem 0rem;
+            div{
+                h2{
+                    font-size: 3.125rem;
+                    width: 18.8125rem;
+                    height: 23.625rem;
+                }
+            }
+            .buttonsIndex{
+                flex-direction: column;
+                row-gap: 1.875rem;
+            }
+        }
+        .photoMagali{
+            padding-top: 5.75rem;
+            img{
+                width: 29.8931rem;
+                height: 37.5rem;
+            }
+        }
+    }
+}
+@media (max-width: 890px){
+    div{
+        section{
+            margin: 3.4375rem 0rem 3.4375rem 0rem;
+            div{
+                h2{
+                    margin: 2.5rem 0rem 2.5rem 0rem;
+                }
+            }
+            .buttonsIndex{
+                flex-direction: row;
+                gap: 8rem;
+            }
+        }
+        .photoMagali{
+            position: absolute;
+            padding-left: 350px;
+            padding-top: 80px;
+            img{
+                width: 22rem;
+                height: 27.5625rem;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    div{
+        section{
+            div{
+                h2{
+                    font-size: 45px;
+                }
+            }
+            .buttonsIndex{
+                gap: .9375rem;
+        }
+        }
+        .photoMagali{
+            padding-left: 300px;
+            padding-top: 100px;
+            img{
+                width: 18.75rem;
+                height: 23.4906rem;
+            }
+        }
+    }
+}
+@media (max-width: 630px){
+    div{
+        section{
+            div{
+                h4{
+                    width: 7.0313rem;
+                    height: 2.3438rem;
+                    font-size: .9375rem;
+                    border-radius: .3906rem;
+                    padding-top: .5rem;
+                }
+                h2{
+                    font-size: 1.5625rem;
+                    width: 14.375rem;
+                    height: 5.875rem;
+                    margin: 1.875rem 0rem 1.875rem 2.5rem;
+                    text-align: center;
+                }
+            }
+            .buttonsIndex{
+                gap: 15px;
+                button{
+                    width: 9.0625rem;
+                    height: 2.625rem;
+                    border-radius: .5rem;
+                    a{
+                        font-size: .75rem;
+                    }
+                }
+            }
+        }
+        .photoMagali{
+            display: none;
+        }
+    }
+}

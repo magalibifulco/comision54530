@@ -1,0 +1,49 @@
+.myWorksSection{
+    @extend .sectionOneCert;
+    margin: 3.125rem;
+    p{
+        width: 38.75rem;
+        text-align: center;
+    }
+    ul{
+        @include flex (row,nowrap,space-between,none,0);
+        width: 41.25rem;
+        list-style-type: none;
+        li{
+            a{
+                color: $color-texto;
+                font-size: 1.25rem;
+                font-weight: 700;
+                text-decoration: none;
+                &:hover {
+                    color: #b290df;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.myWorksOne{
+    @include grid( repeat(3, 25rem),repeat(2, 18.5125rem), 2.5rem,"div, div, div""div, div, div",center,center);
+    margin-bottom: 3.125rem;
+    div{
+        @include flex(column,nowrap,center,center,.9375rem);
+        background-color: #ffffff;
+        box-shadow: 0px 0px 40px #D2D5EC;
+        & :hover{
+            transform: scale(1.1);
+        }
+        h2{
+            font-family: 'Roboto', sans-serif;
+            color: #9B4EB2;
+            font-size: 1.625rem;
+            font-weight: 500;
+            padding-bottom: .9375rem;
+        }
+        img{
+            margin-top: .9375rem;
+            width: 21.5625rem;
+            height: 13.75rem;
+        }
+    }
+}
