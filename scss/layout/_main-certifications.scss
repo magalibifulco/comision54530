@@ -3,8 +3,7 @@
         @include flex (column,nowrap,center,center,1.5625rem);
         font-family: $tipografia-principal;
         color: $color-texto;
-        margin-top: 5.444rem;
-        margin-bottom: 5.444rem;
+        margin-top: 3.125rem;
         text-align: center;
         h2{
             font-size: 1.25rem;
@@ -19,50 +18,5 @@
             font-size: 1.25rem;
             font-weight: 400;
             width: 37.5rem;
-        }
-    }
-    .certifications{
-        font-family: $tipografia-principal;
-        color: $color-texto;
-        @include flex (row,nowrap,center,center,2.5rem);
-        margin-bottom: 9.8125rem;
-        & :hover{
-            transform: scale(1.1);
-        }
-        div{
-            @include flex (column,nowrap,none,center,.625rem);
-            background-color: #F2C9D4;
-            width: 13.75rem;
-            height: 18.875rem;
-            border-radius: 1.25rem;
-            h5{
-                font-size: 1rem;
-                font-weight: 500;
-            }
-            h3{
-                font-size: 1.5rem;
-                font-weight: 500;
-                text-align: center;
-                width: 8.9375rem;
-            }
-            h4{
-                font-size: 1.5rem;
-                font-weight: 400;
-            }
-            img{
-                width: 8.125rem;
-                height: 6.25rem;
-            }
-            a{
-                font-size: 1rem;
-                font-weight: 400;
-                &:hover {
-                    color: #b290df;
-                    cursor: pointer;
-                }
-            }
-            .smallerWidth{
-                width: 6.25rem;
-            }
         }
     }
